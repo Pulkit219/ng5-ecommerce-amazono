@@ -55,3 +55,24 @@ npm install --save @ng-bootstrap/ng-bootstrap
 copied bootstrap and font-awesome cdn to src/index.html
 
 </li>
+
+
+<li>
+Importing dependencies
+
+```
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    NgbModule
+
+  ],
+```
+
+</li>
