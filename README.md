@@ -4,7 +4,9 @@ Practice Angular 5 building e-commerce platform
 
 
 <li>
-  
+
+BASIC APP SET UP WITH DATABASE FOR ###SERVER SIDE
+
 ```
 const express = require('express');
 const morgan = require('morgan');
@@ -39,5 +41,17 @@ app.listen(config.port,err=>{
     console.log(`running on port ${config.port}`);
 })
 ```
+
+</li>
+
+
+<li>
+
+Creating client side angular app 
+```
+ng new appName --routing --style=scss
+npm install --save @ng-bootstrap/ng-bootstrap
+```
+copied bootstrap and font-awesome cdn to src/index.html
 
 </li>
